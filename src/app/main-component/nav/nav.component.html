@@ -23,11 +23,14 @@
             >Home</a
           >
         </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="auth">Accesso/registrazione</a>
+        <li class="nav-item" *ngIf="!isLoggedIn">
+          <a class="nav-link" routerLink="auth">Accesso</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" *ngIf="isLoggedIn">
           <a class="nav-link" routerLink="utente">utente</a>
+        </li>
+        <li class="nav-item" *ngIf="isLoggedIn">
+          <button (click)="logout()" class="nav-link">Logout</button>
         </li>
       </ul>
     </div>
