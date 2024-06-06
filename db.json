@@ -5,6 +5,18 @@
       "password": "$2a$10$/xlcv3WP.va3a5lyIWpJxONQOfK6i03bujF4PZVfygjnHjqqXVOVe",
       "nome": "manuel",
       "id": 1
+    },
+    {
+      "email": "banana@libero",
+      "password": "$2a$10$8DTd640Kgvs9F.fMD34Pvuf8hxB375qCaOqn5gQisVeFGT4Gfx6uC",
+      "nome": "manu",
+      "id": 2
+    },
+    {
+      "email": "ciao@libero",
+      "password": "$2a$10$oId1plc2Ya0wa9d8ybcMzuW3f2FhXsKL7kbVGLcQ7aUd9icOoPurS",
+      "nome": "ciao",
+      "id": 3
     }
   ]
 }

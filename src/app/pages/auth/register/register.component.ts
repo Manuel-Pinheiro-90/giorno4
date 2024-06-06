@@ -17,7 +17,7 @@ export class RegisterComponent {
     private router:Router
   ){}
 
-  register(){this.authSvc.register(this.newUser).subscribe(()=>{this.router.navigate(['/utente'])})}
+  register(){this.authSvc.register(this.newUser).subscribe(()=>{this.router.navigate(['/auth/login'])})}
 
 
 

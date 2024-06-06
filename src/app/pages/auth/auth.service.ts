@@ -28,7 +28,7 @@ isLoggedIn$ = this.user$.pipe(
 
   constructor( private http:HttpClient,
     private  router:Router
-  ) {  }
+  ) {  this.restoreUser() }
 
 
 
